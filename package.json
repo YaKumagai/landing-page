@@ -8,6 +8,7 @@
   "scripts": {
     "dev": "npm run generate-json && astro dev",
     "build": "npm run generate-json && astro build",
+    "start": "node astro.config.mjs",
     "preview": "astro preview",
     "format": "prettier -w ./src",
     "generate-json": "node scripts/jsonGenerator.js",
